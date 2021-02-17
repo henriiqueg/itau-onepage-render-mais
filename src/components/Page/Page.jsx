@@ -6,7 +6,7 @@ const Page = ({ children, ...props }) => (
     justify-center max-w-screen-md py-8 px-6 w-screen md:pt-0"
   >
     <img
-      className="w-full absolute top-7 left-1/2 transform -translate-x-2/4 hidden lg:block "
+      className="w-full absolute top-7 left-1/2 transform -translate-x-2/4 hidden xl:block "
       style={{ maxWidth: '150px' }}
       src={vendaMaisLogo}
       alt="Venda Mais Logo"
