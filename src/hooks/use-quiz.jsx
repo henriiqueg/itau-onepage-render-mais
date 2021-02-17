@@ -22,7 +22,7 @@ const useQuiz = (pagesArray = []) => {
     setQuizPage(pagesArray[newIndex]);
   };
 
-  return { index, QuizPage, nextPage, previousPage };
+  return { index, setIndex, QuizPage, nextPage, previousPage };
 };
 
 export default useQuiz;
