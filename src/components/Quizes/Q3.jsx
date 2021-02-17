@@ -18,6 +18,8 @@ const Q3 = ({ nextPage = () => {} }) => {
 
   const handleRightAnswer = () => {
     pipwerks.SCORM.set('cmi.core.score.raw', '20');
+    pipwerks.SCORM.set('cmi.core.lesson_status', 'incomplete');
+    pipwerks.SCORM.set('cmi.core.lesson_location', '1');
     setRightModal(true);
   };
 

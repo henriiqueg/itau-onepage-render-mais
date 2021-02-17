@@ -12,7 +12,7 @@ const Q4 = ({ nextPage = () => {} }) => (
     <Icon src={icon} />
     <Title>
       E agora que tal termos uma visão do processo de interação com os nossos
-      clientes?{' '}
+      clientes?
     </Title>
     <Description>
       Falar um pouco de como a sondagem, abordagem, oferta, argumentação de
