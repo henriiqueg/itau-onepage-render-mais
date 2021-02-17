@@ -7,6 +7,7 @@ import ButtonSecondary from 'components/Patterns/ButtonSecondary';
 import Q1 from 'components/Quizes/Q1';
 import Q2 from 'components/Quizes/Q2';
 import Q3 from 'components/Quizes/Q3';
+import Q4 from 'components/Quizes/Q4';
 
 const QuizScreen = () => {
   const { index, setIndex, nextPage, previousPage } = useQuiz();
@@ -18,6 +19,8 @@ const QuizScreen = () => {
       return <Q2 nextPage={nextPage} />;
     case 2:
       return <Q3 nextPage={nextPage} />;
+    case 3:
+      return <Q4 nextPage={nextPage} />;
     default:
       return (
         <div>
