@@ -15,10 +15,6 @@ const Q20 = ({ setIndex }) => {
   const { pipwerks } = usePipwerksContext();
   const [modalFinish, setModalFinish] = useState(false);
 
-  const getStudentName = () => {
-    pipwerks.SCORM.get('cmi.core.student_name');
-  };
-
   const handleRecomecar = () => {
     setIndex(0);
     pipwerks.SCORM.set('cmi.core.lesson_status', 'incomplete');
@@ -39,11 +35,11 @@ const Q20 = ({ setIndex }) => {
       <Icon src={icon} />
       <Title>Que jornada, hein?</Title>
       <Description>
-        {getStudentName()}, espero que você tenha navegado com a gente e
-        aproveitado o processo de aprendizagem ao máximo! Tenha sempre em mente
-        os nossos pilares: personalização, humanização e resolutividade. Com
-        isso sempre em mente, aliado aos processos que nós já possuímos, os
-        resultados virão com muito mais facilidade! Nos vemos em breve!
+        Ufa, espero que você tenha navegado com a gente e aproveitado o processo
+        de aprendizagem ao máximo! Tenha sempre em mente os nossos pilares:
+        personalização, humanização e resolutividade. Com isso sempre em mente,
+        aliado aos processos que nós já possuímos, os resultados virão com muito
+        mais facilidade! Nos vemos em breve!
       </Description>
       <div className="flex flex-wrap justify-center mx-auto items-center gap-8">
         <Button onClick={handleRecomecar} type="button">

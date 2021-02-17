@@ -1,24 +1,24 @@
 import Page from 'components/Page';
 import Title from 'components/Patterns/Title';
-import Icon from 'components/Patterns/Icon';
-import Description from 'components/Patterns/Description';
+import CreditCard from 'components/Patterns/CreditCard';
 import Button from 'components/Patterns/Button';
 
-import icon from 'assets/icons/ic-02.png';
+import card from 'assets/img/mastercard-black.webp';
 
 const Q18 = ({ nextPage = () => {} }) => (
   <Page>
-    <Icon src={icon} />
-    <Title>
-      Uma visualização sobre o Visa Infinite, o Mastercard Black e o Visa
-      Signature
-    </Title>
+    <CreditCard src={card} />
     <Title>MASTERCARD BLACK</Title>
-    <Description>
-      Será uma imagem feita por nós com uma foto sem fundo (.png) do cartão e a
-      sua descrição de principais benefícios, sinalizando também o que é
-      benefício exclusivo dele
-    </Description>
+    <CreditCard.Description>
+      - Acesso a mais de 850 áreas VIP LoungeKeyem 120 países, independente de
+      companhia aérea, associação à programa de milhagem ou classe de passagem.
+      <br />
+      - Acesso à exclusiva rede de salas VIP MasterCard em aeroportos, com mais
+      de 30 salas adicionais no Brasil, México e Costa Rica. <br />
+      - Benefícios exclusivos em estabelecimentos de luxo de varejo,
+      restaurantes e SPAs próximos aos aeroportos. <br />
+      - Ofertas Premium de parceiros nos aeroportos <br />
+    </CreditCard.Description>
     <div className="flex flex-wrap justify-end ml-auto items-center gap-8">
       <Button onClick={nextPage} type="button">
         PRÓXIMO

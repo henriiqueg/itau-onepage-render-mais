@@ -1,24 +1,55 @@
 import Page from 'components/Page';
 import Title from 'components/Patterns/Title';
-import Icon from 'components/Patterns/Icon';
-import Description from 'components/Patterns/Description';
+import CreditCard from 'components/Patterns/CreditCard';
 import Button from 'components/Patterns/Button';
 
-import icon from 'assets/icons/ic-02.png';
+import card from 'assets/img/visa-infinite.webp';
 
 const Q17 = ({ nextPage = () => {} }) => (
   <Page>
-    <Icon src={icon} />
-    <Title>
-      Uma visualização sobre o Visa Infinite, o Mastercard Black e o Visa
-      Signature
-    </Title>
+    <CreditCard src={card} />
     <Title>VISA INFINITE</Title>
-    <Description>
-      Será uma imagem feita por nós com uma foto sem fundo (.png) do cartão e a
-      sua descrição de principais benefícios, sinalizando também o que é
-      benefício exclusivo dele
-    </Description>
+    <CreditCard.Description>
+      - 2 acessos gratuitos por cartão, por ano a mais de 850 Salas VIPs
+      LoungeKey™️ em aeroportos no mundo. <br />
+      - Serviço de Concierge exclusivo da bandeira Visa e cobertura de USD
+      200.000 em despesas médicas. <br />
+      - Programa de pontos Sempre Presente – 2 pontos/dólar para compras
+      nacionais e 3 em compras internacionais. <br />- Benefícios exclusivos na
+      Experiência Personnalité -
+      <a
+        href="www.itau.com.br/personnalite/experiencia/"
+        className="text-blue underline"
+        target="_blank"
+      >
+        www.itau.com.br/personnalite/experiencia/
+      </a>
+      <br />- Promoções e Descontos –{' '}
+      <a
+        href="www.itau.com.br/semprepresente"
+        className="text-blue underline"
+        target="_blank"
+      >
+        itau.com.br/semprepresente
+      </a>
+      <br />- 50% de desconto em diversão –{' '}
+      <a
+        href="www.itau.com.br/semprepresente"
+        className="text-blue underline"
+        target="_blank"
+      >
+        itau.com.br/semprepresente
+      </a>
+      <br /> - Benefícios da Bandeira-{' '}
+      <a
+        href="www.visa-infinite.com/br/benefícios"
+        className="text-blue underline"
+        target="_blank"
+      >
+        www.visa-infinite.com/br/benefícios
+      </a>{' '}
+      <br />E muito mais!
+    </CreditCard.Description>
     <div className="flex flex-wrap justify-end ml-auto items-center gap-8">
       <Button onClick={nextPage} type="button">
         PRÓXIMO

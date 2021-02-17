@@ -6,7 +6,7 @@ import Page from 'components/Page';
 import Button from 'components/Patterns/Button';
 import ModalDescription from 'components/Patterns/Modals/ModalDescription';
 
-import tikTok from 'assets/videos/tik-tok-1.mp4';
+import tikTok from 'assets/videos/tiktok1.mp4';
 
 const Q5 = ({ nextPage = () => {} }) => {
   const [modalAudio, setModalAudio] = useState(true);
