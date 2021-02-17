@@ -2,11 +2,10 @@ import { usePipwerksContext } from 'contexts/PipwerksProvider';
 
 import Page from 'components/Page';
 import Title from 'components/Patterns/Title';
-import Icon from 'components/Patterns/Icon';
-import Description from 'components/Patterns/Description';
+import CreditCard from 'components/Patterns/CreditCard';
 import Button from 'components/Patterns/Button';
 
-import icon from 'assets/icons/ic-02.png';
+import card from 'assets/img/visa-signature.webp';
 
 const Q19 = ({ nextPage = () => {} }) => {
   const { pipwerks } = usePipwerksContext();
@@ -18,17 +17,24 @@ const Q19 = ({ nextPage = () => {} }) => {
   };
   return (
     <Page>
-      <Icon src={icon} />
-      <Title>
-        Uma visualização sobre o Visa Infinite, o Mastercard Black e o Visa
-        Signature
-      </Title>
+      <CreditCard src={card} />
       <Title>VISA SIGNATURE</Title>
-      <Description>
-        Será uma imagem feita por nós com uma foto sem fundo (.png) do cartão e
-        a sua descrição de principais benefícios, sinalizando também o que é
-        benefício exclusivo dele
-      </Description>
+      <CreditCard.Description>
+        - Tecnologia Aproxime e pague – basta aproximar o cartão na maquininha
+        no momento do pagamento de suas compras <br />
+        - 70% de isenção no Plano Anual do Rappi Prime <br />- 18 mensalidades
+        gratuitas no Plano completo da ConectCar para pedidos de adesivos
+        efetuados em agosto com ativação até 7 de setembro de 2020 <br />- Novas
+        coberturas de viagens -{' '}
+        <a
+          href="www.visa.com.br/portaldebeneficios"
+          className="text-blue underline"
+          target="_blank"
+        >
+          www.visa.com.br/portaldebeneficios
+        </a>{' '}
+        <br />- Até 3 adicionais gratuitos.
+      </CreditCard.Description>
       <div className="flex flex-wrap justify-end ml-auto items-center gap-8">
         <Button onClick={handleEncerrar} type="button">
           PRÓXIMO
