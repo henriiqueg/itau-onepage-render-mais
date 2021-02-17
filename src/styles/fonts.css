@@ -1,0 +1,68 @@
+@font-face {
+	font-family: "Roboto";
+	src: url("../assets/fonts/ItauDisplay_Rg.ttf");
+	src: local("Roboto Regular"), local("Roboto-Regular"),
+		url("../assets/fonts/ItauDisplay_Rg.ttf?#iefix")
+			format("embedded-opentype"),
+		url("../assets/fonts/ItauDisplay_Rg.ttf") format("woff2"),
+		url("../assets/fonts/ItauDisplay_Rg.ttf") format("woff"),
+		url("../assets/fonts/ItauDisplay_Rg.ttf") format("truetype"),
+		url("../assets/fonts/ItauDisplay_Rg.svg#Roboto") format("svg");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Roboto Bold";
+	src: url("../assets/fonts/ItauDisplay_Bd.ttf");
+	src: local("Roboto Bold"), local("Roboto-Bold"),
+		url("../assets/fonts/ItauDisplay_Bd.ttf?#iefix")
+			format("embedded-opentype"),
+		url("../assets/fonts/ItauDisplay_Bd.ttf") format("woff2"),
+		url("../assets/fonts/ItauDisplay_Bd.ttf") format("woff"),
+		url("../assets/fonts/ItauDisplay_Bd.ttf") format("truetype"),
+		url("../assets/fonts/ItauDisplay_Bd.svg#Roboto") format("svg");
+	font-weight: 400;
+	font-style: bold;
+}
+
+@font-face {
+	font-family: "Roboto Light";
+	src: url("../assets/fonts/ItauDisplay_Lt.ttf");
+	src: local("Roboto Light"), local("Roboto-Light"),
+		url("../assets/fonts/ItauDisplay_Lt.ttf?#iefix")
+			format("embedded-opentype"),
+		url("../assets/fonts/ItauDisplay_Lt.ttf") format("woff2"),
+		url("../assets/fonts/ItauDisplay_Lt.ttf") format("woff"),
+		url("../assets/fonts/ItauDisplay_Lt.ttf") format("truetype"),
+		url("../assets/fonts/ItauDisplay_Lt.svg#Roboto") format("svg");
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Roboto Mono";
+	src: url("../assets/fonts/ItauDisplay_Rg.ttf");
+	src: local("Roboto Regular"), local("Roboto-Regular"),
+		url("../assets/fonts/ItauDisplay_Rg.ttf?#iefix")
+			format("embedded-opentype"),
+		url("../assets/fonts/ItauDisplay_Rg.ttf") format("woff2"),
+		url("../assets/fonts/ItauDisplay_Rg.ttf") format("woff"),
+		url("../assets/fonts/ItauDisplay_Rg.ttf") format("truetype"),
+		url("../assets/fonts/ItauDisplay_Rg.svg#Roboto") format("svg");
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Roboto Slab";
+	src: url("../assets/fonts/ItauDisplay_Rg.ttf");
+	src: local("Roboto Regular"), local("Roboto-Regular"),
+		url("../assets/fonts/ItauDisplay_Rg.ttf?#iefix")
+			format("embedded-opentype"),
+		url("../assets/fonts/ItauDisplay_Rg.ttf") format("woff2"),
+		url("../assets/fonts/ItauDisplay_Rg.ttf") format("woff"),
+		url("../assets/fonts/ItauDisplay_Rg.ttf") format("truetype"),
+		url("../assets/fonts/ItauDisplay_Rg.svg#Roboto") format("svg");
+	font-weight: 500;
+	font-style: normal;
+}

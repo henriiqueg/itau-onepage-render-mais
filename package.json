@@ -39,6 +39,8 @@
     ]
   },
   "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.3",
+    "autoprefixer": "9",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.19.0",
     "eslint-config-airbnb": "^18.2.1",
@@ -49,6 +51,8 @@
     "eslint-plugin-react": "7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0",
     "husky": "^4.3.8",
-    "prettier": "^2.2.1"
+    "postcss": "7",
+    "prettier": "^2.2.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   }
 }
