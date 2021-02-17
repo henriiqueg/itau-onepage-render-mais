@@ -4,7 +4,7 @@ import Description from 'components/Patterns/Description';
 import icon from 'assets/icons/right.png';
 
 const ModalRight = ({ children, onClick }) => (
-  <div className="absolute w-screen h-screen bg-secondary bg-opacity-50 flex items-center justify-center">
+  <div className="fixed w-full h-full bg-secondary bg-opacity-50 flex items-center justify-center top-0">
     <div
       className="w-11/12 bg-modal flex flex-col items-center justify-center"
       style={{ maxWidth: 450 }}

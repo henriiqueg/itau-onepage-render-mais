@@ -2,7 +2,7 @@ import Button from 'components/Patterns/Button';
 import Description from 'components/Patterns/Description';
 
 const ModalDescription = ({ children, onClick }) => (
-  <div className="absolute z-50 w-screen min-w-max min-h-screen h-full bg-secondary bg-opacity-50 flex items-center justify-center">
+  <div className="fixed z-50 w-screen h-full bg-secondary bg-opacity-50 flex items-center justify-center top-0 ">
     <div
       className="w-11/12 bg-modal flex flex-col items-center justify-center"
       style={{ maxWidth: 450 }}
