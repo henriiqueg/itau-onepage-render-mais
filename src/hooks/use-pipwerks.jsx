@@ -8,6 +8,7 @@ const useScript = (resourceUrl) => {
     script.src = resourceUrl;
     script.async = false;
     script.onload = () => {
+      // eslint-disable-next-line no-console
       console.log('SCORM API Wrapper loaded successfully');
       setPipwerks(window.pipwerks);
     };
