@@ -1,11 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import { usePipwerksContext } from 'contexts/PipwerksProvider';
 
-function App() {
+const App = () => {
+  const { pipwerks } = usePipwerksContext();
+
+  if (!pipwerks) {
+    return <div className="App">Não foi possível carregar a aplicação</div>;
+  }
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -20,6 +24,6 @@ function App() {
       </header>
     </div>
   );
-}
+};
 
 export default App;
